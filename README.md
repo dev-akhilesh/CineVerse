@@ -52,6 +52,3 @@ Once the application is up and running, you can:
 **Browse Movies and TV Shows:** The homepage displays a collection of movies and TV shows.
 
 **Filter by Genre:** Click on a genre from the genre list to filter and display only the movies and TV shows that belong to that genre.
-
-
->>>>>>> 609dbbad2dff4d624e6a8638c9f225dbdf47c6bc
