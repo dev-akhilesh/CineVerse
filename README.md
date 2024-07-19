@@ -20,6 +20,7 @@ CineVerse is a movie and TV show streaming platform where you can watch both mov
 - **React Router DOM**: For routing and navigation within the application.
 - **Axios**: For making HTTP requests to fetch data from APIs.
 - **React Icons**: For including icons in the application.
+- **TMDb API**: Provides movie and TV show data including details and images.
 
 ## Installation
 To get started with CineVerse, follow these steps:
@@ -27,6 +28,8 @@ To get started with CineVerse, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/dev-akhilesh/CineVerse.git
+   ```
+   ```bash
    cd CineVerse
    ```
 2. **Install dependencies:**
@@ -45,6 +48,7 @@ To get started with CineVerse, follow these steps:
 Once the application is up and running, you can:
 
 **Browse Movies and TV Shows:** The homepage displays a collection of movies and TV shows.
+
 **Filter by Genre:** Click on a genre from the genre list to filter and display only the movies and TV shows that belong to that genre.
 
 ## Deployed Link
