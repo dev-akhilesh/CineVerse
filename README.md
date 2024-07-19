@@ -10,7 +10,7 @@ CineVerse is a movie and TV show streaming platform where you can watch both mov
 - [Usage](#usage)
 
 ## Deployed Link
-You can access the live application at: [CineVerse Deployed Link](https://your-deployed-link.com)
+You can access the live application at: [CineVerse Deployed Link](https://cine-verse-nu.vercel.app/)
 
 ## Features
 - **Watch Movies and TV Shows**: Stream your favorite movies and TV shows directly from the platform.
