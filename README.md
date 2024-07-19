@@ -28,3 +28,24 @@ To get started with CineVerse, follow these steps:
    ```bash
    git clone https://github.com/dev-akhilesh/CineVerse.git
    cd CineVerse
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Run the application:**
+   ```bash
+   npm start
+   ```
+4. Open your browser and navigate to http://localhost:3000 to see the application in action.
+
+
+
+## Usage
+Once the application is up and running, you can:
+
+**Browse Movies and TV Shows:** The homepage displays a collection of movies and TV shows.
+**Filter by Genre:** Click on a genre from the genre list to filter and display only the movies and TV shows that belong to that genre.
+
+## Deployed Link
+You can access the live application at: [CineVerse Deployed Link](https://your-deployed-link.com)
