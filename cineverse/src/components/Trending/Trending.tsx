@@ -81,7 +81,6 @@
 
 // export default Trending;
 
-
 // @ts-nocheck
 
 import UseTrendingList from "@/hooks/useTrandingList";
@@ -108,25 +107,28 @@ const Trending = () => {
 
   return (
     <>
-      <div
-        className="relative w-full overflow-hidden"
-        style={{ height: "500px" }}
+      {/* <div
+        className="relative w-screen overflow-hidden"
+        style={{ height: "1000px" }}
       >
         <div
           className="flex transition-transform duration-1000"
-          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+          style={{
+            transform: `translateX(-${currentIndex * 100}%)`
+          }}
         >
           {images?.map((image, index) => (
             <img
               key={index}
               src={`https://image.tmdb.org/t/p/original${image}`}
               alt={`poster-${index}`}
-              style={{ height: "500px" }}
-              className="w-full transition-all min-w-full object-contain"
+              style={{ height: "1000px" }}
+              className="w-screen transition-all min-w-full object-fill"
             />
           ))}
         </div>
-      </div>
+      </div> */}
+
       <TrendingMovie />
       <TrendingTv />
     </>
