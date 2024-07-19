@@ -6,7 +6,9 @@ CineVerse is a movie and TV show streaming platform where you can watch both mov
 - [Deployed Link](#deployed-link)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
+- [Prerequisites](#Prerequisites)
 - [Installation](#installation)
+- [Building for Production](#Building-for-Production)
 - [Usage](#usage)
 
 ## Deployed Link
@@ -17,13 +19,21 @@ You can access the live application at: [CineVerse Deployed Link](https://cine-v
 - **Genre Filter**: Filter content by genre to find movies and TV shows that match your interests.
 
 ## Tech Stack
+
 - **React**: JavaScript library for building user interfaces.
+- **TypeScript**: Superset of JavaScript that adds static types.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **shadcn**: Used for additional component styling.
 - **React Router DOM**: For routing and navigation within the application.
 - **Axios**: For making HTTP requests to fetch data from APIs.
 - **React Icons**: For including icons in the application.
 - **TMDb API**: Provides movie and TV show data including details and images.
+
+## Prerequisites
+
+- Node.js
+- npm or yarn
+
 
 ## Installation
 To get started with CineVerse, follow these steps:
@@ -38,15 +48,42 @@ To get started with CineVerse, follow these steps:
 2. **Install dependencies:**
    ```bash
    npm install
+   # or
+   yarn install
    ```
 3. **Run the application:**
    ```bash
    npm start
+   # or
+   yarn start
    ```
 4. Open your browser and navigate to http://localhost:5173/ to see the application in action.
 
+## Building for Production
+
+1. Build the application:
+   ```bash
+   npm run build
+   # or
+   yarn build
+   ```
+2. The production-ready files will be in the `build` directory.
+
+
 
 ## Usage
+
+### API Integration
+
+The application uses the TMDb API to fetch movie and TV show data. You will need an API key from TMDb.
+
+### Environment Variables
+
+Create a `.env` file in the root of the project and add your TMDb API key:
+
+```bash
+VITE_TMDB_API_KEY = your_api_key_here
+```
 Once the application is up and running, you can:
 
 **Browse Movies and TV Shows:** The homepage displays a collection of movies and TV shows.
