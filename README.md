@@ -3,11 +3,14 @@
 CineVerse is a movie and TV show streaming platform where you can watch both movies and TV shows directly on the website. The platform also includes a genre filter, allowing users to filter content by specific genres.
 
 ## Table of Contents
+- [Deployed Link](#deployed-link)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Deployed Link](#deployed-link)
+
+## Deployed Link
+You can access the live application at: [CineVerse Deployed Link](https://your-deployed-link.com)
 
 ## Features
 - **Watch Movies and TV Shows**: Stream your favorite movies and TV shows directly from the platform.
@@ -43,7 +46,6 @@ To get started with CineVerse, follow these steps:
 4. Open your browser and navigate to http://localhost:3000 to see the application in action.
 
 
-
 ## Usage
 Once the application is up and running, you can:
 
@@ -51,5 +53,4 @@ Once the application is up and running, you can:
 
 **Filter by Genre:** Click on a genre from the genre list to filter and display only the movies and TV shows that belong to that genre.
 
-## Deployed Link
-You can access the live application at: [CineVerse Deployed Link](https://your-deployed-link.com)
+
