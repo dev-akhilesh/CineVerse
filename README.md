@@ -43,7 +43,7 @@ To get started with CineVerse, follow these steps:
    ```bash
    npm start
    ```
-4. Open your browser and navigate to http://localhost:3000 to see the application in action.
+4. Open your browser and navigate to http://localhost:5173/ to see the application in action.
 
 
 ## Usage
